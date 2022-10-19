@@ -1,9 +1,31 @@
 .navbar {
+	background-color: rgb(227, 191, 197);
+	display: flex;
+	justify-content: center;
+	
 	.container {
-		padding: 10px 0px;
-		width: 100%;
+		padding: 10px;
+		width: 80%;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+
+		.logo {
+			img {
+				width: 100px;
+				border-radius: 50%;
+			}
+		}
+	}
+
+	.links {
+		display: flex;
+		align-items: center;
+		gap: 30px;
+
+		h6 {
+			font-size: 16px;
+			font-weight: 300;
+		}
 	}
 }
