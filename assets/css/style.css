@@ -7,6 +7,13 @@ Designer Name - Angry Studio
 Designer Website - https://angrystudio.com
 */
 /*-- General Styles--*/
+:root {
+  --clr-highlight: #ffc107;
+}
+
+html {
+  scroll-padding-top: 90px;
+}
 body {
   color: #3d4852;
   font-family: "Montserrat", sans-serif;
@@ -14,7 +21,7 @@ body {
   line-height: 1.8rem;
 }
 ::selection {
-  background: #ffc107;
+  background: var(--clr-highlight);
   color: #2c333a;
 }
 ::-webkit-scrollbar {
@@ -48,12 +55,12 @@ h6 {
   max-width: 800px;
 }
 .bg-main {
-  background: #ffc107;
+  background: var(--clr-highlight);
 }
 
 .pre-title:after {
   content: "";
-  background: #ffc107;
+  background: var(--clr-highlight);
   border-radius: 5px;
   height: 3.5px;
   width: 100%;
@@ -85,7 +92,7 @@ h6 {
 }
 .wings:before {
   content: "";
-  background: #ffc107;
+  background: var(--clr-highlight);
   border-radius: 5px;
   position: absolute;
   top: -8px;
@@ -114,7 +121,7 @@ h6 {
 }
 .primary-nav .navbar-nav .nav-link.active,
 .primary-nav .navbar-nav .nav-link:hover {
-  color: #ffc107;
+  color: var(--clr-highlight);
 }
 .dropdown-item {
   padding: 0.5rem 1rem;
@@ -164,7 +171,7 @@ h6 {
 }
 .sidenav-menu .nav-link.active,
 .sidenav-menu .nav-link:hover {
-  color: #ffc107;
+  color: var(--clr-highlight);
 }
 .sidenav-menu .dropdown-menu {
   background-color: #0a1823;
@@ -202,6 +209,14 @@ h6 {
 }
 .hero-image img:hover {
   transform: rotate(0deg) scale(1.1);
+}
+.hero-cta,
+.footer-cta {
+  background-color: var(--clr-highlight);
+  color: #000;
+}
+.hero-cta:hover {
+  /* TODO add some hover styles */
 }
 
 /*-- Portfolio --*/
@@ -259,7 +274,7 @@ h6 {
   bottom: -1rem;
 }
 .splide__pagination__page.is-active {
-  background: #ffc107;
+  background: var(--clr-highlight);
 }
 
 /*-- Stats --*/
@@ -295,6 +310,8 @@ h6 {
   top: -40px;
   right: 120px;
   width: 280px;
+
+  stroke: var(--clr-highlight);
 }
 
 /*--Footer --*/
@@ -328,7 +345,7 @@ h6 {
     margin-top: 0;
   }
   .primary-nav .dropdown-menu {
-    border-top: 3px solid #ffc107;
+    border-top: 3px solid var(--clr-highlight);
     border-right: 0;
     border-bottom: 0;
     border-left: 0;
