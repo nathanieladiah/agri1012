@@ -218,7 +218,8 @@ h6 {
   z-index: 3;
 
   max-height: 75vh;
-  object-fit: cover;
+  /* object-fit: cover; */
+  /* object-fit: contain; */
 }
 .hero-image img:hover {
   transform: rotate(0deg) scale(1.1);
@@ -228,9 +229,9 @@ h6 {
   background-color: var(--clr-highlight);
   color: #000;
 }
-.hero-cta:hover {
-  /* TODO add some hover styles */
-}
+/* .hero-cta:hover {
+  TODO add some hover styles
+} */
 
 /*-- Portfolio --*/
 .portfolio {
