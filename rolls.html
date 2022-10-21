@@ -21,11 +21,19 @@
       href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;0,800;0,900;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
 
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/css/splide.min.css" />
     <link href="assets/css/style.css" rel="stylesheet" />
     <link href="assets/css/recipe.css" rel="stylesheet" />
@@ -92,17 +100,19 @@
           >&times;</a
         >
         <div class="sidenav-logo mt-5 pt-5">
-          <a class="" href="./index.html"><img src="assets/images/logo.png" /></a>
+          <a class="" href="./index.html"
+            ><img src="assets/images/logo.png"
+          /></a>
         </div>
         <div class="sidenav-menu mt-5">
           <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link px-0" href="./index.html"
-                >Home</a
-              >
+              <a class="nav-link px-0" href="./index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link px-0 active" aria-current="page"  href="#">Recipes</a>
+              <a class="nav-link px-0 active" aria-current="page" href="#"
+                >Recipes</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link px-0" href="#">Notes</a>
@@ -149,134 +159,289 @@
       </div>
     </div>
     <!-- Off Canvas Menu End-->
-    	<header>
-        <section class="hero">
-          <h1 class="hero__title">Classic Cheesecake Recipe</h1>
-          <div class="hero__text">
-            <img src="./img/6dots.svg" alt="">
-            <p class="hero__body">
-              Look no further for a creamy and ultra smooth classic cheesecake recipe! Paired with a buttery graham cracker crust, no one can deny its simple decadence. For the best results, bake in a water bath.
-            </p>
+    <header>
+      <section class="hero">
+        <h1 class="hero__title">Pumpkin Flavored Cinnamon Rolls</h1>
+        <div class="hero__text">
+          <img src="./img/6dots.svg" alt="" />
+          <p class="hero__body">
+            The BEST cinnamon rolls in the WORLD. Big, fluffy, soft and
+            absolutely delicious. With an extra something from the pumpkin,
+            you’ll never go back to any other recipe once you try this one!
+          </p>
+        </div>
+        <img
+          src="./assets/images/rolls.jpg"
+          alt="cinnamon rolls"
+          class="hero__img"
+        />
+      </section>
+    </header>
+
+    <main>
+      <div class="info-wrapper">
+        <div class="info">
+          <div class="yield">
+            <div class="info-item info-item--yield">
+              <span class="material-icons info-item__icon">local_dining</span>
+              <p class="info-item__label">yields</p>
+              <p class="info-item__data">12 servings</p>
+            </div>
           </div>
-          <img src="./assets/images/cheesecake.png" alt="completed cheesecake" class="hero__img">
+          <div class="times">
+            <div class="info-item">
+              <span class="material-icons info-item__icon">schedule</span>
+              <p class="info-item__label">prep time</p>
+              <p class="info-item__data">45 minutes</p>
+            </div>
+            <div class="info-item">
+              <span class="material-icons info-item__icon">schedule</span>
+              <p class="info-item__label">cook time</p>
+              <p class="info-item__data">1 hour</p>
+            </div>
+            <div class="info-item">
+              <span class="material-icons info-item__icon">schedule</span>
+              <p class="info-item__label">total time</p>
+              <p class="info-item__data">7,75 hours</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="recipe">
+        <section class="ingredients">
+          <h2 class="ingredients__title">Ingredients</h2>
+          <p class="ingredients__sub-title">Frosting</p>
+          <div class="ingredients__list">
+            <div class="ingredients__item">
+              <input type="checkbox" name="" id="cream-cheese" />
+              <label for="cream-cheese"
+                >One 8-ounce block (226g) full-fat
+                <strong>cream cheese</strong>, softened to room
+                temperature</label
+              >
+            </div>
+
+            <div class="ingredients__item">
+              <input type="checkbox" name="butter" id="butter" />
+              <label for="butter"
+                >4 Tablespoons (60g) <strong>unsalted butter</strong>,
+                softened</label
+              >
+            </div>
+
+            <div class="ingredients__item">
+              <input type="checkbox" name="crust-sugar" id="crust-sugar" />
+              <label for="crust-sugar"
+                >2 &frac12; - 3 cups (625-750g)
+                <strong>powdered sugar</strong></label
+              >
+            </div>
+
+            <div class="ingredients__item">
+              <input type="checkbox" name="" id="vanilla" />
+              <label for="vanilla"
+                >1 teaspoon pure <strong>vanilla extract</strong></label
+              >
+            </div>
+          </div>
+
+          <p class="ingredients__sub-title">Cinnamon Rolls</p>
+          <div class="ingredients__list">
+            <div class="ingredients__item">
+              <input type="checkbox" name="flour" id="flour" />
+              <label for="flour">600g <strong>white flour</strong></label>
+            </div>
+            <div class="ingredients__item">
+              <input type="checkbox" name="" id="sugar" />
+              <label for="sugar">75g <strong>white sugar</strong></label>
+            </div>
+            <div class="ingredients__item">
+              <input type="checkbox" name="yeast" id="yeast" />
+              <label for="yeast"
+                >1 pack (11g) <strong>instant yeast</strong></label
+              >
+            </div>
+            <div class="ingredients__item">
+              <input type="checkbox" name="margarine" id="margarine" />
+              <label for="margarine"
+                >50g <strong>butter or margarine</strong></label
+              >
+            </div>
+            <div class="ingredients__item">
+              <input type="checkbox" name="pumpkin" id="pumpkin" />
+              <label for="pumpkin"
+                >&frac23; cups <strong>pumpkin puree</strong></label
+              >
+            </div>
+            <div class="ingredients__item">
+              <input type="checkbox" name="nutmeg" id="nutmeg" />
+              <label for="nutmeg"><strong>nutmeg</strong></label>
+            </div>
+            <div class="ingredients__item">
+              <input type="checkbox" name="cinnamon" id="cinnamon" />
+              <label for="cinnamon"><strong>cinnamon</strong></label>
+            </div>
+            <div class="ingredients__item">
+              <input type="checkbox" name="water" id="water" />
+              <label for="water">2 cups <strong>warm water</strong></label>
+            </div>
+            <div class="ingredients__item">
+              <input type="checkbox" name="coloring" id="coloring" />
+              <label for="coloring"><strong>food coloring</strong></label>
+            </div>
+          </div>
         </section>
-      </header>
-
-      <main>
-        <div class="info-wrapper">
-          <div class="info">
-            <div class="yield">
-              <div class="info-item info-item--yield">
-                <span class="material-icons info-item__icon">local_dining</span>
-                <p class="info-item__label">yields</p>
-                <p class="info-item__data">12 servings</p>
-              </div>
+        <section class="instructions">
+          <h2 class="instructions__title">Instructions</h2>
+          <ol class="instructions__list">
+            <li class="instructions__item">
+              Adjust the oven rack to the lower-middle position and preheat oven
+              to 375°F (190°C).
+            </li>
+            <li class="instructions__item">
+              Sift flour, then add flour, white sugar, and butter or margarine
+              into a bowl along with a pack of yeast.
+            </li>
+            <li class="instructions__item">
+              Add 2g of food coloring to warm water and stir.
+              <strong>The water should not exceed 100°C.</strong> When the water
+              reaches 120°C the yeast begins to die, and are completely killed
+              at 140°C.
+            </li>
+            <li class="instructions__item">
+              Make a well in the center of the flour, add &frac23; cups of
+              pumpkin puree and warm water gradually, and mix to form a
+              semi-soft dough.
+            </li>
+            <li class="instructions__item">
+              Turn out onto a lightly floured surface and knead until smooth and
+              elastic. Place dough in a greased bowl and cover with saran rap
+              and leave to rise until doubled in size.
+            </li>
+            <li class="instructions__item">
+              When well-risen, punch down and re-knead. Use a rolling pin to
+              flatten it to a &frac14;" thickness in a rectangular shape.
+            </li>
+            <li class="instructions__item">
+              Place fillings in and shape as desired and leave to prove.
+            </li>
+            <li class="instructions__item">
+              Bake for 20-25 minutes, or until well risen or golden brown.
+            </li>
+            <li class="instructions__item">
+              Serve cheesecake with desired toppings. Cover and store leftover
+              cheesecake in the refrigerator for up to 5 days.
+            </li>
+          </ol>
+          <!-- <p class="instructions__source">
+            Source:
+            <span class="site"
+              >https://sallysbakingaddiction.com/classic-cheesecake/</span
+            >
+          </p> -->
+        </section>
+      </div>
+    </main>
+    <!--Footer Start-->
+    <footer class="footer bg-dark text-muted pt-0 pt-lg-5">
+      <div class="container">
+        <!-- <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+            <div class="footer-col mt-5 pe-4">
+              <img
+                src="assets/images/logo-2-white.png"
+                class="footer-logo mb-4"
+              />
+              <p class="mb-0">
+                Pellentesque sed elementum erat. Proin ut purus viverra,
+                porttitor sem id, finibus ante. Vestibulum ullamcorper convallis
+                magna. Integer bibendum ante felis, non laoreet enim molestie
+                ac.
+              </p>
             </div>
-            <div class="times">
-              <div class="info-item">
-                <span class="material-icons info-item__icon">schedule</span>
-                <p class="info-item__label">prep time</p>
-                <p class="info-item__data">45 minutes</p>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+            <div class="footer-col mt-5">
+              <h3 class="footer-title text-white mb-4">Services</h3>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><a href="#">Design</a></li>
+                <li class="mb-2"><a href="#">Development</a></li>
+                <li class="mb-2"><a href="#">Marketing</a></li>
+                <li class="mb-0"><a href="#">Growth Hacking</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+            <div class="footer-col mt-5">
+              <h3 class="footer-title text-white mb-4">Company</h3>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><a href="#">About</a></li>
+                <li class="mb-2"><a href="#">Team</a></li>
+                <li class="mb-2"><a href="#">Career</a></li>
+                <li class="mb-0"><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+            <div class="footer-col footer-contact mt-5">
+              <h3 class="footer-title text-white mb-4">Contact us</h3>
+              <div class="mb-3">
+                <img class="me-2" src="assets/images/map-pin.svg" /><span
+                  >2132 Berry Street, Pueblo, Colorado</span
+                >
               </div>
-              <div class="info-item">
-                <span class="material-icons info-item__icon">schedule</span>
-                <p class="info-item__label">cook time</p>
-                <p class="info-item__data">1 hour</p>
+              <div class="mb-3">
+                <img class="me-2" src="assets/images/mail.svg" /><span
+                  >719-240-7593</span
+                >
               </div>
-              <div class="info-item">
-                <span class="material-icons info-item__icon">schedule</span>
-                <p class="info-item__label">total time</p>
-                <p class="info-item__data">7,75 hours</p>
+              <div>
+                <img class="me-2" src="assets/images/phone.svg" /><span>
+                  contact@angrystudio.com</span
+                >
               </div>
             </div>
           </div>
-        </div>
-
-
-        <div class="recipe">
-          <section class="ingredients">
-            <h2 class="ingredients__title">Ingredients</h2>
-            <p class="ingredients__sub-title">Graham Cracker Crust</p>
-            <div class="ingredients__list">
-              <div class="ingredients__item">
-                <input type="checkbox" name="crumbs" id="crumbs">
-                <label for="crumbs">1 and 1/2 cups (150g) <strong>graham cracker crumbs</strong> (about 10 full sheet graham crackers)</label>
-              </div>
-              <div class="ingredients__item">
-                <input type="checkbox" name="butter" id="butter">
-                <label for="butter">5 Tablespoons (70g) <strong>unsalted butter</strong>, melted</label>
-              </div>
-
-              <div class="ingredients__item">
-                <input type="checkbox" name="crust-sugar" id="crust-sugar">
-                <label for="crust-sugar">1/4 cup (50g) <strong>granulated sugar</strong></label>
-              </div>
+        </div> -->
+        <div class="row footer-credits text-center mt-5 py-3">
+          <div class="col-12 col-md-6">
+            <div class="footer-copy float-md-none float-lg-start">
+              <p class="mb-0 small">
+                &copy 2022
+                <a href="#" class="text-decoration-none">nathanieladiah</a>. All
+                Rights Reserved
+              </p>
             </div>
-
-            <p class="ingredients__sub-title">Cheesecake</p>
-            <div class="ingredients__list">
-              <div class="ingredients__item">
-                <input type="checkbox" name="" id="cream-cheese">
-                <label for="cream-cheese">four 8-ounce blocks (904g) full-fat <strong>cream cheese</strong>, softened to room temperature</label>
-              </div>
-              <div class="ingredients__item">
-                <input type="checkbox" name="" id="sugar">
-                <label for="sugar">1 cup (200g) <strong>granulated sugar</strong></label>
-              </div>
-              <div class="ingredients__item">
-                <input type="checkbox" name="" id="sour-cream">
-                <label for="sour-cream">1 cup (240g) full-fat <strong>sour cream</strong>, at room temperature</label>
-              </div>
-              <div class="ingredients__item">
-                <input type="checkbox" name="" id="vanilla">
-                <label for="vanilla">1 teaspoon pure <strong>vanilla extract</strong></label>
-              </div>
-              <div class="ingredients__item">
-                <input type="checkbox" name="" id="lemon">
-                <label for="lemon">2 teaspoons <strong>fresh lemon juice </strong>(optional, but recommended)</label>
-              </div>
-              <div class="ingredients__item">
-                <input type="checkbox" name="" id="eggs">
-                <label for="eggs">3 large <strong>eggs</strong>, at room temperature</label>
-              </div>
-              <div class="ingredients__item">
-                <input type="checkbox" name="" id="toppings">
-                <label for="toppings">topping suggestions: <em>salted caramel, lemon curd, strawberry topping, chocolate ganache, red wine chocolate ganache, fresh fruit, whipped cream, or raspberry sauce</em> (recipe in notes) </label>
-              </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="footer-social clearfix">
+              <ul class="list-unstyled mb-0 float-md-none float-lg-end">
+                <li class="d-inline-block me-2">
+                  <a href="#"><img src="assets/images/youtube.svg" /></a>
+                </li>
+                <li class="d-inline-block me-2">
+                  <a href="#"><img src="assets/images/twitter.svg" /></a>
+                </li>
+                <li class="d-inline-block me-2">
+                  <a href="#"><img src="assets/images/instagram.svg" /></a>
+                </li>
+                <li class="d-inline-block me-2">
+                  <a href="#"><img src="assets/images/github.svg" /></a>
+                </li>
+                <li class="d-inline-block me-2">
+                  <a href="#"><img src="assets/images/dribbble.svg" /></a>
+                </li>
+                <li class="d-inline-block">
+                  <a href="#"><img src="assets/images/facebook.svg" /></a>
+                </li>
+              </ul>
             </div>
-          </section>
-          <section class="instructions">
-            <h2 class="instructions__title">Instructions</h2>
-            <ol class="instructions__list">
-              <li class="instructions__item">
-                Adjust the oven rack to the lower-middle position and preheat oven to 350°F (177°C).
-              </li>
-              <li class="instructions__item">
-                Make the crust: Using a food processor, pulse the graham crackers into crumbs. Pour into a medium bowl and stir in sugar and melted butter until combined. (You can also pulse it all together in the food processor.) Mixture will be sandy. Press firmly into the bottom and slightly up the sides of a 9-inch or 10-inch springform pan. No need to grease the pan first. I use the bottom of a measuring cup to pack the crust down tightly. Pre-bake for 8 minutes. Remove from the oven and place the hot pan on a large piece of aluminum foil. The foil will wrap around the pan for the water bath in step 4. Allow crust to slightly cool as you prepare the filling.
-              </li>
-              <li class="instructions__item">
-                Make the filling: Using a handheld or stand mixer fitted with a paddle attachment, beat the cream cheese and granulated sugar together on medium-high speed in a large bowl until the mixture is smooth and creamy, about 2 minutes. Add the sour cream, vanilla extract, and lemon juice then beat until fully combined. On medium speed, add the eggs one at a time, beating after each addition until just blended. After the final egg is incorporated into the batter, stop mixing. To help prevent the cheesecake from deflating and cracking as it cools, avoid over-mixing the batter as best you can.
-              </li>
-              <li class="instructions__item">
-                Prepare the simple water bath (see note) Boil a pot of water. You need 1 inch of water in your roasting pan for the water bath, so make sure you boil enough. I use an entire kettle of hot water. As the water is heating up, wrap the aluminum foil around the springform pan. Pour the cheesecake batter on top of the crust. Use a rubber spatula or spoon to smooth it into an even layer. Place the pan inside of a large roasting pan. Carefully pour the hot water inside of the pan and place in the oven. (Or you can place the roasting pan in the oven first, then pour the hot water in. Whichever is easier for you.)
-              </li>
-              <li class="instructions__item">
-                Bake cheesecake for 55-70 minutes or until the center is almost set. When it’s done, the center of the cheesecake will slightly wobble if you gently shake the pan. Turn the oven off and open the oven door slightly. Let the cheesecake sit in the oven in the water bath as it cools down for 1 hour. Remove from the oven and water bath, then cool cheesecake completely at room temperature. Then refrigerate the cheesecake for at least 4 hours or overnight.
-              </li>
-              <li class="instructions__item">
-                Use a knife to loosen the chilled cheesecake from the rim of the springform pan, then remove the rim. Using a clean sharp knife, cut into slices for serving. For neat slices, wipe the knife clean and dip into warm water between each slice.
-              </li>
-              <li class="instructions__item">
-                Serve cheesecake with desired toppings. Cover and store leftover cheesecake in the refrigerator for up to 5 days.
-              </li>
-            </ol>
-            <p class="instructions__source">
-              Source: 
-              <span class="site">https://sallysbakingaddiction.com/classic-cheesecake/</span>
-            </p>
-          </section>
+          </div>
         </div>
-      </main>
+      </div>
+    </footer>
+    <!--Footer End-->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/splide.min.js"></script>
     <script src="assets/js/main.js"></script>
