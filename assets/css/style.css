@@ -291,6 +291,12 @@ h6 {
   background: var(--clr-highlight);
 }
 
+/* Team */
+.team-pic {
+  object-fit: cover;
+  height: 300px;
+}
+
 /*-- Stats --*/
 .stats-box {
   box-shadow: 0 0 2rem rgb(0 0 0 / 0.1);
